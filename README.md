@@ -6,6 +6,7 @@ Extensão do Chrome para contabilizar horas/dia no sistema internos (project web
 	- faca o download: https://github.com/wfuertes/contabiliza-horas/archive/master.zip
 	- descompacte como "contabiliza-horas" em alguma pasta de sua preferencia
 	- no chrome acesse chrome://extensions/
+	- marque "Developer mode" (ou modo desenvolvedor)
 	- clique em carregar extensão expandida
 	- selecione a pasta do "contabiliza-horas"
 	- clique em Ok 
