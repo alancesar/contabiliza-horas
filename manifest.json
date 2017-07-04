@@ -1,0 +1,26 @@
+{
+  "name": "Contabiliza Horas MATERA",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Contabiliza horas por dia para apontamentos MATERA",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://cas2.matera.com/internos/apontamento_horas/apontamento_horas.xhtml",
+        "https://cas2.matera.com/internos/apontamento_horas/apontamento_horas.xhtml"
+      ],
+      "js": [
+        "jquery.min.js",
+        "contabiliza-horas.js"
+      ],
+      "css": [
+        "contabiliza-horas.css"
+      ]
+    }
+  ]
+}
